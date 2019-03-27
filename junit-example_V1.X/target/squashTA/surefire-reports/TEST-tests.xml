@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite time="0.78" failures="0" tests="1" name="tests" >
+  <testcase time="0.0" classname="tests:setup" name="setup.ta" />
+  <testcase time="0.77" classname="tests" name="EssaiJUnit.ta" />
+  <testcase time="0.0" classname="tests:teardown" name="teardown.ta" />
+</testsuite>

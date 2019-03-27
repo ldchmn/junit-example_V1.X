@@ -1,0 +1,12 @@
+TEST :
+
+// Avec des micro-instructions
+LOAD junit AS junitTestSource
+CONVERT junitTestSource TO script.java(compile) AS junitTestCompiled
+CONVERT junitTestCompiled TO script.java.selenium2(script) USING $(org.squashtest.JUnitTest) AS junitTest
+
+EXECUTE execute WITH junitTest AS junitResult
+ASSERT junitResult IS success
+
+// La même chose, avec un raccourci :
+# EXECUTE_SELENIUM2 junit WITH MAIN CLASS org.squashtest.JUnitTest

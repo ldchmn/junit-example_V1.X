@@ -1,0 +1,11 @@
+[INFO ] init.ComponentPackagesEnumerator - Listing sqhashTA engine component packages 
+[INFO ] init.ComponentManifestParser - Loading plugin configuration for: org.squashtest.ta.enginecore 
+[INFO ] init.ComponentManifestParser - Loading plugin configuration for: org.squashtest.ta.selenium 
+[INFO ] init.ComponentManifestParser - Loading plugin configuration for: org.squashtest.ta.commons-component 
+[INFO ] init.ComponentManifestParser - Loading plugin configuration for: org.squashtest.ta.sahi 
+[INFO ] init.ComponentManifestParser - Loading plugin configuration for: org.squashtest.ta.soapui 
+[INFO ] init.ComponentManifestParser - Loading plugin configuration for: org.squashtest.ta.filechecker 
+[INFO ] impl.EcosystemRunnerImpl - Beginning execution of ecosystem tests 
+[INFO ] impl.TestRunnerImpl - Beginning execution of test setup.ta 
+[INFO ] impl.TestRunnerImpl - Beginning execution of test EssaiJUnit.ta 
+[INFO ] impl.TestRunnerImpl - Beginning execution of test teardown.ta 
